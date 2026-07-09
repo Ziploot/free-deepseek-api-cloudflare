@@ -75,14 +75,15 @@ try {
     $apiUrl = "https://free-deepseek-api.$subdomain.workers.dev"
     Write-Host "`n[SUCCESS] Congratulations! Your Private DeepSeek API is live!" -ForegroundColor Green
     Write-Host "--------------------------------------------------------" -ForegroundColor Green
-    Write-Host "🔗 API Endpoint (Base URL): $apiUrl" -ForegroundColor Cyan
-    Write-Host "🔑 API Key: $apiKey" -ForegroundColor Cyan
-    Write-Host "🤖 Model Name: @cf/deepseek-ai/deepseek-r1-distill-qwen-32b" -ForegroundColor Cyan
+    Write-Host "[LINK] API Endpoint (Base URL): $apiUrl" -ForegroundColor Cyan
+    Write-Host "[KEY] API Key: $apiKey" -ForegroundColor Cyan
+    Write-Host "[MODEL] Model Name: @cf/deepseek-ai/deepseek-r1-distill-qwen-32b" -ForegroundColor Cyan
     Write-Host "--------------------------------------------------------" -ForegroundColor Green
-    Write-Host "`n📁 Project Folder created at: $projectFolder" -ForegroundColor Yellow
+    Write-Host "`n[FOLDER] Project Folder created at: $projectFolder" -ForegroundColor Yellow
     Write-Host "You can integrate this endpoint directly in Cursor or VS Code (via Continue.dev extension)." -ForegroundColor Yellow
     Read-Host "`nSetup completed. Press Enter to exit..."
 } catch {
     Write-Host "[ERROR] An unexpected error occurred: $_" -ForegroundColor Red
     Read-Host "Press Enter to exit..."
 }
+
