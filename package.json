@@ -1,0 +1,12 @@
+{
+  "name": "free-deepseek-api",
+  "version": "1.0.0",
+  "description": "OpenAI-Compatible API Gateway for DeepSeek on Cloudflare Workers",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "wrangler deploy"
+  },
+  "dependencies": {
+    "wrangler": "^3.114.17"
+  }
+}
