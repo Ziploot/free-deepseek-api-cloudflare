@@ -1,0 +1,8 @@
+{
+  "name": "free-deepseek-api",
+  "main": "index.js",
+  "compatibility_date": "2026-07-09",
+  "ai": {
+    "binding": "AI"
+  }
+}
